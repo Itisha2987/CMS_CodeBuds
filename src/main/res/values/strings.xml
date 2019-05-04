@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">ComplaintManagementSystem</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="LogIn">Log In</string>
+    <string name="Signup">Sign up</string>
+
+
+    <string-array name="hostelNoArray">
+        <item>Hostel-1</item>
+        <item>Hostel-2</item>
+        <item>Hostel-3</item>
+        <item>Hostel-4</item>
+        <item>Hostel-5</item>
+        <item>Hostel-6</item>
+        <item>Hostel-7</item>
+        <item>Hostel-8</item>
+        <item>Hostel-9</item>
+        <item>Hostel-10</item>
+        <item>Hostel-11</item>
+        <item>Hostel-12</item>
+        <item>Girls Hostel</item>
+        <item>MC</item>
+    </string-array>
+
+
+    <string-array name="facultyArray">
+        <item>Computer Engg</item>
+        <item>Computer Science</item>
+        <item>Mechanical Engg</item>
+        <item>Chemical Engg</item>
+        <item>Electrical Power Engg</item>
+        <item>Electrical Electronics Engg</item>
+        <item>Management Sciences</item>
+        <item>Civil Engg</item>
+    </string-array>
+
+    <string-array name="roomType">
+        <item>Single Room</item>
+        <item>Double Room</item>
+    </string-array>
+
+
+    <string-array name="designationProfessor">
+        <item>Dean</item>
+        <item>Research Associate</item>
+        <item>Assistant Professor</item>
+        <item>Teaching Assistant</item>
+        <item>Lab Instructor</item>
+    </string-array>
+
+    <string-array name="department">
+        <item>Work Department</item>
+        <item>Mess Deparment</item>
+        <item>Security Department</item>
+    </string-array>
+    <string name="title_activity_home">home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
