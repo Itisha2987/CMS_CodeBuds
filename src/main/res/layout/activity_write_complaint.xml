@@ -42,7 +42,10 @@
                         android:layout_marginTop="10dp"/>
                 </LinearLayout>
 
+
+
                 <TextView
+                    android:id="@+id/heading"
                     android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -52,39 +55,54 @@
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
 
+                <EditText
+                    android:id="@+id/etRecipient"
+                    android:hint="To"
+                    android:inputType="textEmailAddress"
+                    android:imeOptions="actionNext"
+                    android:layout_below="@id/heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"/>
+
+
+
+
 
                 <android.support.design.widget.TextInputLayout
                     android:id="@+id/complaintDetails"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/topNav"
+                    android:layout_below="@id/etRecipient"
                     android:layout_marginTop="40dp"
                     app:counterEnabled="true"
 
                     app:counterMaxLength="100">
 
+
                     <EditText
-                        android:id="@+id/text"
+                        android:hint="Complaint"
+                        android:id="@+id/etContent"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:gravity="top"
-                        android:hint="Enter Details here"
-                        android:inputType="textMultiLine" />
+                        android:imeOptions="actionDone"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"/>
                 </android.support.design.widget.TextInputLayout>
 
 
 
                 <Button
+                    android:id="@+id/btnSend"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/complaintDetails"
-                    android:text="Submit"
+                    android:text="Send"
+                    android:onClick="sendemail"
                     android:gravity="center"
                     android:layout_centerHorizontal="true"
                     android:background="@color/colorPrimary"
                     android:textColor="@color/white"
-                    android:layout_marginTop="30dp"
-                    android:id="@+id/submit"/>
+                    android:layout_marginTop="16dp" />
 
             </RelativeLayout>
         </LinearLayout>
